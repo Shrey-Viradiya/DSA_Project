@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+S:/Documents/SEM 3/DSA_Project/GraphColorSolution.c
+stdio.h
+-
+stdbool.h
+-
+
+S:/Documents/SEM 3/DSA_Project/graph.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
 S:/Documents/SEM 3/DSA_Project/main.c
 stdio.h
 -
@@ -13,4 +27,8 @@ stdlib.h
 -
 stdbool.h
 -
+graph.c
+S:/Documents/SEM 3/DSA_Project/graph.c
+GraphColorSolution.c
+S:/Documents/SEM 3/DSA_Project/GraphColorSolution.c
 

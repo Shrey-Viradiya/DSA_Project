@@ -4,3 +4,5 @@ project(DSA_Project C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(DSA_Project main.c)
+
+#graph.c graph.h GraphColorSolution.c GraphColorSolution.h
