@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+S:/Documents/SEM 3/DSA_Project/main.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
