@@ -41,10 +41,10 @@ struct Graph* createGraph(int V, bool** matrix)
     graph->V = V;
 
     // initialization of the graph
-    matrix = (bool **) calloc(V, sizeof(bool *));
-    for (int k = 0; k < V; ++k) {
-        matrix[k] = (bool *) calloc(V, sizeof(bool));
-    }
+//    matrix = (bool **) calloc(V, sizeof(bool *));
+//    for (int k = 0; k < V; ++k) {
+//        matrix[k] = (bool *) calloc(V, sizeof(bool));
+//    }
 
     graph->array = (struct AdjList*) malloc(V * sizeof(struct AdjList));
 

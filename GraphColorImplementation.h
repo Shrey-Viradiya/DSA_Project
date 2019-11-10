@@ -1,0 +1,16 @@
+//
+// Created by shrey on 10-11-2019.
+//
+
+#ifndef DSA_PROJECT_GRAPHCOLORIMPLEMENTATION_H
+#define DSA_PROJECT_GRAPHCOLORIMPLEMENTATION_H
+
+#include<stdio.h>
+#include <stdlib.h>
+#include<stdbool.h>
+#include "graph.h"
+#include "GraphColorSolution.h"
+
+int GraphColorImplementation();
+
+#endif //DSA_PROJECT_GRAPHCOLORIMPLEMENTATION_H

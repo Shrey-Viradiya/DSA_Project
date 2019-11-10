@@ -74,6 +74,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="S:/Documents/SEM 3/DSA_Project/GraphColorImplementation.c">
+			<Option target="DSA_Project"/>
+		</Unit>
+		<Unit filename="S:/Documents/SEM 3/DSA_Project/GraphColorImplementation.h">
+			<Option target="DSA_Project"/>
+		</Unit>
+		<Unit filename="S:/Documents/SEM 3/DSA_Project/GraphColorSolution.c">
+			<Option target="DSA_Project"/>
+		</Unit>
+		<Unit filename="S:/Documents/SEM 3/DSA_Project/GraphColorSolution.h">
+			<Option target="DSA_Project"/>
+		</Unit>
+		<Unit filename="S:/Documents/SEM 3/DSA_Project/TimeTableScheduling.c">
+			<Option target="DSA_Project"/>
+		</Unit>
+		<Unit filename="S:/Documents/SEM 3/DSA_Project/TimeTableScheduling.h">
+			<Option target="DSA_Project"/>
+		</Unit>
+		<Unit filename="S:/Documents/SEM 3/DSA_Project/graph.c">
+			<Option target="DSA_Project"/>
+		</Unit>
+		<Unit filename="S:/Documents/SEM 3/DSA_Project/graph.h">
+			<Option target="DSA_Project"/>
+		</Unit>
 		<Unit filename="S:/Documents/SEM 3/DSA_Project/main.c">
 			<Option target="DSA_Project"/>
 		</Unit>

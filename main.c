@@ -1,96 +1,44 @@
 #include<stdio.h>
-#include <stdlib.h>
-#include<stdbool.h>
-#include "graph.c"
-#include "GraphColorSolution.c"
+#include "GraphColorImplementation.h"
+#include "TimeTableScheduling.h"
 
 int main(){
-    int vertices, choice;
-    bool** graph = NULL;
-    struct Graph* GRP = NULL;
+    printf("\nDSA_Project");
+    printf("\n______________________");
+    printf("\nGraph Coloring and application");
+    printf("\n______________________");
+    printf("\nProject By Shrey Viradiya and Tirth Patel");
+    printf("\n______________________");
 
-    printf("Graph Coloring Problem....");
-    printf("Enter the number of vertices: \n");
-    scanf("%d",&vertices);
+    printf("\n\n");
 
-    printf("Choose the approach\n1: add adjacency matrix of the graph\n2: add the edges of the graph\n");
+    printf("\n______________________");
+    printf("\nChoose From Options:");
+    printf("\n______________________");
+    printf("\n1: Simple Graph Coloring Implementation");
+    printf("\n2: Exam Time-Table Scheduling");
+    printf("\n3: Mobile Radio Frequency Allocation");
+    printf("\n______________________");
+    printf("\nEnter Your Choice:\n");
+
+    int choice;
     scanf("%d", &choice);
 
-    switch (choice){
+    switch(choice){
         case 1:
-            graph = (bool **) calloc(vertices, sizeof(bool *));
-            for (int k = 0; k < vertices; ++k) {
-                graph[k] = (bool *) calloc(vertices, sizeof(bool));
-            }
+            GraphColorImplementation();
+            break;
+        case 2:
+            TimeTableScheduling();
+            break;
+        case 3:
 
-            printf("\n\nEnter the adjacency matrix of the graph\n");
-            printf("________________________________________\n");
-
-            for (int i = 0; i < vertices; ++i) {
-                for (int j = 0; j < vertices; ++j) {
-                    scanf("%d", &graph[i][j]);
-                }
-            }
+            break;
+        default:
+            printf("Not Sure What to do! Please try again...");
             break;
 
-        case 2:;
-            GRP = createGraph(vertices, graph);
-
-            graph = (bool **) calloc(vertices, sizeof(bool *));
-            for (int k = 0; k < vertices; ++k) {
-                graph[k] = (bool *) calloc(vertices, sizeof(bool));
-            }
-
-            printf("n Vertices are labeled as 0, 1, to n-1: ");
-            printf("\nInstructions: ");
-            printf("\nTo add an edge, enter two vertices \"i j\" space separated");
-            printf("\nIf any of the i or j is greater of equal to no of vertices");
-            printf("\nthan input is rejected and asked for one more input");
-            printf("\n\nChoose options\n1: add edge\n0: exit\n");
-
-            int choice2;
-
-            do{
-                printf("\nChoice: \n");
-                scanf("%d", &choice2);
-
-                if (choice2 == 1){
-                    int src,des;
-                    printf("\n");
-                    scanf("%d %d",&src, &des);
-
-                    if (src >= vertices || des >= vertices){
-                        printf("Invalid Input");
-                        continue;
-                    }
-
-                    addEdge(GRP,src,des,graph);
-                    // updating graph matrix
-                    graph[src][des] = 1;
-                    graph[des][src] = 1;
-                    printf("\nEdge Added\n");
-
-                }
-            }while(choice2 != 0);
-            break;
     }
-
-    printGraph(GRP);
-
-//    bool graph[V][V] = {{0, 1, 1, 1},
-//                        {1, 0, 1, 0},
-//                        {1, 1, 0, 1},
-//                        {1, 0, 1, 0},
-//    };
-
-//    Solution : 1 2 3 2
-
-    int m = 1;
-    bool flag;
-    do{
-         flag = SolveGraph (graph, m, vertices);
-         ++m;
-    }while(!flag);
 
     return 0;
 }

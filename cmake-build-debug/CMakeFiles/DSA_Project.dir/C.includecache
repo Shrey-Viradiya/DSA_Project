@@ -6,29 +6,19 @@
 
 #IncludeRegexTransform: 
 
-S:/Documents/SEM 3/DSA_Project/GraphColorSolution.c
+S:/Documents/SEM 3/DSA_Project/GraphColorSolution.h
 stdio.h
 -
 stdbool.h
 -
 
-S:/Documents/SEM 3/DSA_Project/graph.c
+S:/Documents/SEM 3/DSA_Project/TimeTableScheduling.c
 stdio.h
 -
 stdlib.h
 -
 stdbool.h
 -
-
-S:/Documents/SEM 3/DSA_Project/main.c
-stdio.h
--
-stdlib.h
--
-stdbool.h
--
-graph.c
-S:/Documents/SEM 3/DSA_Project/graph.c
-GraphColorSolution.c
-S:/Documents/SEM 3/DSA_Project/GraphColorSolution.c
+GraphColorSolution.h
+S:/Documents/SEM 3/DSA_Project/GraphColorSolution.h
 

@@ -122,6 +122,114 @@ DSA_Project/fast:
 	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/build
 .PHONY : DSA_Project/fast
 
+GraphColorImplementation.obj: GraphColorImplementation.c.obj
+
+.PHONY : GraphColorImplementation.obj
+
+# target to build an object file
+GraphColorImplementation.c.obj:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/GraphColorImplementation.c.obj
+.PHONY : GraphColorImplementation.c.obj
+
+GraphColorImplementation.i: GraphColorImplementation.c.i
+
+.PHONY : GraphColorImplementation.i
+
+# target to preprocess a source file
+GraphColorImplementation.c.i:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/GraphColorImplementation.c.i
+.PHONY : GraphColorImplementation.c.i
+
+GraphColorImplementation.s: GraphColorImplementation.c.s
+
+.PHONY : GraphColorImplementation.s
+
+# target to generate assembly for a file
+GraphColorImplementation.c.s:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/GraphColorImplementation.c.s
+.PHONY : GraphColorImplementation.c.s
+
+GraphColorSolution.obj: GraphColorSolution.c.obj
+
+.PHONY : GraphColorSolution.obj
+
+# target to build an object file
+GraphColorSolution.c.obj:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/GraphColorSolution.c.obj
+.PHONY : GraphColorSolution.c.obj
+
+GraphColorSolution.i: GraphColorSolution.c.i
+
+.PHONY : GraphColorSolution.i
+
+# target to preprocess a source file
+GraphColorSolution.c.i:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/GraphColorSolution.c.i
+.PHONY : GraphColorSolution.c.i
+
+GraphColorSolution.s: GraphColorSolution.c.s
+
+.PHONY : GraphColorSolution.s
+
+# target to generate assembly for a file
+GraphColorSolution.c.s:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/GraphColorSolution.c.s
+.PHONY : GraphColorSolution.c.s
+
+TimeTableScheduling.obj: TimeTableScheduling.c.obj
+
+.PHONY : TimeTableScheduling.obj
+
+# target to build an object file
+TimeTableScheduling.c.obj:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/TimeTableScheduling.c.obj
+.PHONY : TimeTableScheduling.c.obj
+
+TimeTableScheduling.i: TimeTableScheduling.c.i
+
+.PHONY : TimeTableScheduling.i
+
+# target to preprocess a source file
+TimeTableScheduling.c.i:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/TimeTableScheduling.c.i
+.PHONY : TimeTableScheduling.c.i
+
+TimeTableScheduling.s: TimeTableScheduling.c.s
+
+.PHONY : TimeTableScheduling.s
+
+# target to generate assembly for a file
+TimeTableScheduling.c.s:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/TimeTableScheduling.c.s
+.PHONY : TimeTableScheduling.c.s
+
+graph.obj: graph.c.obj
+
+.PHONY : graph.obj
+
+# target to build an object file
+graph.c.obj:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/graph.c.obj
+.PHONY : graph.c.obj
+
+graph.i: graph.c.i
+
+.PHONY : graph.i
+
+# target to preprocess a source file
+graph.c.i:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/graph.c.i
+.PHONY : graph.c.i
+
+graph.s: graph.c.s
+
+.PHONY : graph.s
+
+# target to generate assembly for a file
+graph.c.s:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/graph.c.s
+.PHONY : graph.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -158,6 +266,18 @@ help:
 	@echo ... DSA_Project
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... GraphColorImplementation.obj
+	@echo ... GraphColorImplementation.i
+	@echo ... GraphColorImplementation.s
+	@echo ... GraphColorSolution.obj
+	@echo ... GraphColorSolution.i
+	@echo ... GraphColorSolution.s
+	@echo ... TimeTableScheduling.obj
+	@echo ... TimeTableScheduling.i
+	@echo ... TimeTableScheduling.s
+	@echo ... graph.obj
+	@echo ... graph.i
+	@echo ... graph.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

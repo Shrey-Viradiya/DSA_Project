@@ -69,19 +69,79 @@ CMakeFiles/DSA_Project.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSA_Project.dir/main.c.s"
 	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "S:\Documents\SEM 3\DSA_Project\main.c" -o CMakeFiles\DSA_Project.dir\main.c.s
 
+CMakeFiles/DSA_Project.dir/graph.c.obj: CMakeFiles/DSA_Project.dir/flags.make
+CMakeFiles/DSA_Project.dir/graph.c.obj: ../graph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Documents\SEM 3\DSA_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DSA_Project.dir/graph.c.obj"
+	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSA_Project.dir\graph.c.obj   -c "S:\Documents\SEM 3\DSA_Project\graph.c"
+
+CMakeFiles/DSA_Project.dir/graph.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSA_Project.dir/graph.c.i"
+	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "S:\Documents\SEM 3\DSA_Project\graph.c" > CMakeFiles\DSA_Project.dir\graph.c.i
+
+CMakeFiles/DSA_Project.dir/graph.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSA_Project.dir/graph.c.s"
+	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "S:\Documents\SEM 3\DSA_Project\graph.c" -o CMakeFiles\DSA_Project.dir\graph.c.s
+
+CMakeFiles/DSA_Project.dir/GraphColorSolution.c.obj: CMakeFiles/DSA_Project.dir/flags.make
+CMakeFiles/DSA_Project.dir/GraphColorSolution.c.obj: ../GraphColorSolution.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Documents\SEM 3\DSA_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/DSA_Project.dir/GraphColorSolution.c.obj"
+	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSA_Project.dir\GraphColorSolution.c.obj   -c "S:\Documents\SEM 3\DSA_Project\GraphColorSolution.c"
+
+CMakeFiles/DSA_Project.dir/GraphColorSolution.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSA_Project.dir/GraphColorSolution.c.i"
+	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "S:\Documents\SEM 3\DSA_Project\GraphColorSolution.c" > CMakeFiles\DSA_Project.dir\GraphColorSolution.c.i
+
+CMakeFiles/DSA_Project.dir/GraphColorSolution.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSA_Project.dir/GraphColorSolution.c.s"
+	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "S:\Documents\SEM 3\DSA_Project\GraphColorSolution.c" -o CMakeFiles\DSA_Project.dir\GraphColorSolution.c.s
+
+CMakeFiles/DSA_Project.dir/GraphColorImplementation.c.obj: CMakeFiles/DSA_Project.dir/flags.make
+CMakeFiles/DSA_Project.dir/GraphColorImplementation.c.obj: ../GraphColorImplementation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Documents\SEM 3\DSA_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/DSA_Project.dir/GraphColorImplementation.c.obj"
+	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSA_Project.dir\GraphColorImplementation.c.obj   -c "S:\Documents\SEM 3\DSA_Project\GraphColorImplementation.c"
+
+CMakeFiles/DSA_Project.dir/GraphColorImplementation.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSA_Project.dir/GraphColorImplementation.c.i"
+	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "S:\Documents\SEM 3\DSA_Project\GraphColorImplementation.c" > CMakeFiles\DSA_Project.dir\GraphColorImplementation.c.i
+
+CMakeFiles/DSA_Project.dir/GraphColorImplementation.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSA_Project.dir/GraphColorImplementation.c.s"
+	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "S:\Documents\SEM 3\DSA_Project\GraphColorImplementation.c" -o CMakeFiles\DSA_Project.dir\GraphColorImplementation.c.s
+
+CMakeFiles/DSA_Project.dir/TimeTableScheduling.c.obj: CMakeFiles/DSA_Project.dir/flags.make
+CMakeFiles/DSA_Project.dir/TimeTableScheduling.c.obj: ../TimeTableScheduling.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Documents\SEM 3\DSA_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/DSA_Project.dir/TimeTableScheduling.c.obj"
+	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DSA_Project.dir\TimeTableScheduling.c.obj   -c "S:\Documents\SEM 3\DSA_Project\TimeTableScheduling.c"
+
+CMakeFiles/DSA_Project.dir/TimeTableScheduling.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DSA_Project.dir/TimeTableScheduling.c.i"
+	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "S:\Documents\SEM 3\DSA_Project\TimeTableScheduling.c" > CMakeFiles\DSA_Project.dir\TimeTableScheduling.c.i
+
+CMakeFiles/DSA_Project.dir/TimeTableScheduling.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DSA_Project.dir/TimeTableScheduling.c.s"
+	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "S:\Documents\SEM 3\DSA_Project\TimeTableScheduling.c" -o CMakeFiles\DSA_Project.dir\TimeTableScheduling.c.s
+
 # Object files for target DSA_Project
 DSA_Project_OBJECTS = \
-"CMakeFiles/DSA_Project.dir/main.c.obj"
+"CMakeFiles/DSA_Project.dir/main.c.obj" \
+"CMakeFiles/DSA_Project.dir/graph.c.obj" \
+"CMakeFiles/DSA_Project.dir/GraphColorSolution.c.obj" \
+"CMakeFiles/DSA_Project.dir/GraphColorImplementation.c.obj" \
+"CMakeFiles/DSA_Project.dir/TimeTableScheduling.c.obj"
 
 # External object files for target DSA_Project
 DSA_Project_EXTERNAL_OBJECTS =
 
 DSA_Project.exe: CMakeFiles/DSA_Project.dir/main.c.obj
+DSA_Project.exe: CMakeFiles/DSA_Project.dir/graph.c.obj
+DSA_Project.exe: CMakeFiles/DSA_Project.dir/GraphColorSolution.c.obj
+DSA_Project.exe: CMakeFiles/DSA_Project.dir/GraphColorImplementation.c.obj
+DSA_Project.exe: CMakeFiles/DSA_Project.dir/TimeTableScheduling.c.obj
 DSA_Project.exe: CMakeFiles/DSA_Project.dir/build.make
 DSA_Project.exe: CMakeFiles/DSA_Project.dir/linklibs.rsp
 DSA_Project.exe: CMakeFiles/DSA_Project.dir/objects1.rsp
 DSA_Project.exe: CMakeFiles/DSA_Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="S:\Documents\SEM 3\DSA_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable DSA_Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="S:\Documents\SEM 3\DSA_Project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable DSA_Project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DSA_Project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

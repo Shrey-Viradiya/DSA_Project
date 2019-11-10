@@ -3,9 +3,10 @@
 //
 
 #include<stdio.h>
+#include <stdlib.h>
 #include<stdbool.h>
 
-void printSolution(int color[], int vertices)
+void printSolution(int* color, int vertices)
 {
     int i;
     printf("\nSolution Exists:"
@@ -15,7 +16,7 @@ void printSolution(int color[], int vertices)
     printf("\n");
 }
 
-bool isSafe (int v, bool** graph, const int color[], int c, int vertices)
+bool isSafe (int v, bool** graph, const int* color, int c, int vertices)
 {
     for (int i = 0; i < vertices; i++)
         if (graph[v][i] && c == color[i])
@@ -23,7 +24,7 @@ bool isSafe (int v, bool** graph, const int color[], int c, int vertices)
     return true;
 }
 
-bool GraphColoringREC(bool** graph, int m, int color[], int v, int vertices)
+bool GraphColoringREC(bool** graph, int m, int* color, int v, int vertices)
 {
     if (v == vertices)
         return true;
@@ -44,18 +45,19 @@ bool GraphColoringREC(bool** graph, int m, int color[], int v, int vertices)
     return false;
 }
 
-bool SolveGraph(bool** graph, int m, int vertices)
+int* SolveGraph(bool** graph, int m, int vertices)
 {
-    int color[vertices];
-    for (int i = 0; i < vertices; i++)
-        color[i] = 0;
+    int* color = calloc(vertices, sizeof(int));
+//    for (int i = 0; i < vertices; i++)
+//        color[i] = 0;
 
     if (GraphColoringREC(graph, m, color, 0, vertices) == false)
     {
-        return false;
+        return NULL;
     }
 
     printf("Minimum Number of Different colors \nrequired to Color the graph: %d",m);
     printSolution(color, vertices);
-    return true;
+
+    return color;
 }
