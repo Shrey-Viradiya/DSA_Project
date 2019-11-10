@@ -6,8 +6,9 @@
 
 int main(){
     int vertices, choice;
-    bool **graph = NULL;
+    bool** graph = NULL;
     struct Graph* GRP = NULL;
+
     printf("Graph Coloring Problem....");
     printf("Enter the number of vertices: \n");
     scanf("%d",&vertices);
@@ -35,12 +36,17 @@ int main(){
         case 2:;
             GRP = createGraph(vertices, graph);
 
+            graph = (bool **) calloc(vertices, sizeof(bool *));
+            for (int k = 0; k < vertices; ++k) {
+                graph[k] = (bool *) calloc(vertices, sizeof(bool));
+            }
+
             printf("n Vertices are labeled as 0, 1, to n-1: ");
-            printf("Instructions: ");
-            printf("To add an edge, enter two vertices \"i j\" space separated");
-            printf("If any of the i or j is greater of equal to no of vertices");
-            printf("than input is rejected and asked for one more input");
-            printf("Choose options\n1: add edge\n2:exit\n");
+            printf("\nInstructions: ");
+            printf("\nTo add an edge, enter two vertices \"i j\" space separated");
+            printf("\nIf any of the i or j is greater of equal to no of vertices");
+            printf("\nthan input is rejected and asked for one more input");
+            printf("\n\nChoose options\n1: add edge\n0: exit\n");
 
             int choice2;
 
@@ -57,14 +63,19 @@ int main(){
                         printf("Invalid Input");
                         continue;
                     }
-                    printf("Edge Added");
-                    addEdge(GRP,src,des,graph);
-                }
-            }while(choice2 != 2);
-            break;
 
+                    addEdge(GRP,src,des,graph);
+                    // updating graph matrix
+                    graph[src][des] = 1;
+                    graph[des][src] = 1;
+                    printf("\nEdge Added\n");
+
+                }
+            }while(choice2 != 0);
+            break;
     }
 
+    printGraph(GRP);
 
 //    bool graph[V][V] = {{0, 1, 1, 1},
 //                        {1, 0, 1, 0},

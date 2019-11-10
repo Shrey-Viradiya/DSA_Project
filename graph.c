@@ -58,7 +58,6 @@ struct Graph* createGraph(int V, bool** matrix)
 
 void addEdge(struct Graph* graph, int src, int dest, bool** matrix)
 {
-
     struct AdjListNode* newNode = newAdjListNode(dest);
     newNode->next = graph->array[src].head;
     graph->array[src].head = newNode;
@@ -68,8 +67,10 @@ void addEdge(struct Graph* graph, int src, int dest, bool** matrix)
     newNode->next = graph->array[dest].head;
     graph->array[dest].head = newNode;
 
-    matrix[src][dest] = 1;
-    matrix[dest][src] = 1;
+//    matrix[src][dest] = 1;
+//    *(*(matrix + src) + dest) = 1;
+//    matrix[dest][src] = 1;
+//    *(*(matrix + dest) + src) = 1;
 }
 
 void printGraph(struct Graph* graph)
