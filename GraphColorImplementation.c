@@ -48,7 +48,7 @@ int GraphColorImplementation(){
             printf("n Vertices are labeled as 0, 1, to n-1: ");
             printf("\nInstructions: ");
             printf("\nTo add an edge, enter two vertices \"i j\" space separated");
-            printf("\nIf any of the i or j is greater of equal to no of vertices");
+            printf("\nIf any of the i or j is greater or equal to no of vertices");
             printf("\nthan input is rejected and asked for one more input");
             printf("\n\nChoose options\n1: add edge\n0: exit\n");
 
@@ -95,11 +95,18 @@ int GraphColorImplementation(){
 //    Solution : 1 2 3 2
 
     int m = 1;
-    bool flag;
-    do{
-        flag = SolveGraph (graph, m, vertices);
+    int *solution = NULL;
+
+    while (true) {
+        solution = SolveGraph(graph, m, vertices);
+        if (solution != NULL) {
+            break;
+        }
         ++m;
-    }while(!flag);
+    }
+
+    printf("Minimum Number of Different colors \nrequired to Color the graph: %d",m);
+    printSolution(solution, vertices);
 
     return 0;
 }

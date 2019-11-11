@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DSA_Project.dir/FrequencyAllocation.c.obj"
   "CMakeFiles/DSA_Project.dir/GraphColorImplementation.c.obj"
   "CMakeFiles/DSA_Project.dir/GraphColorSolution.c.obj"
   "CMakeFiles/DSA_Project.dir/TimeTableScheduling.c.obj"

@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include "GraphColorImplementation.h"
 #include "TimeTableScheduling.h"
+#include "FrequencyAllocation.h"
 
 int main(){
     printf("\nDSA_Project");
@@ -32,7 +33,7 @@ int main(){
             TimeTableScheduling();
             break;
         case 3:
-
+            FrequencyAllocation();
             break;
         default:
             printf("Not Sure What to do! Please try again...");

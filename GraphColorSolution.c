@@ -55,9 +55,9 @@ int* SolveGraph(bool** graph, int m, int vertices)
     {
         return NULL;
     }
+//    printf("Minimum Number of Different colors \nrequired to Color the graph: %d",m);
+//    printSolution(color, vertices);
 
-    printf("Minimum Number of Different colors \nrequired to Color the graph: %d",m);
-    printSolution(color, vertices);
 
     return color;
 }

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "S:/Documents/SEM 3/DSA_Project/FrequencyAllocation.c" "S:/Documents/SEM 3/DSA_Project/cmake-build-debug/CMakeFiles/DSA_Project.dir/FrequencyAllocation.c.obj"
   "S:/Documents/SEM 3/DSA_Project/GraphColorImplementation.c" "S:/Documents/SEM 3/DSA_Project/cmake-build-debug/CMakeFiles/DSA_Project.dir/GraphColorImplementation.c.obj"
   "S:/Documents/SEM 3/DSA_Project/GraphColorSolution.c" "S:/Documents/SEM 3/DSA_Project/cmake-build-debug/CMakeFiles/DSA_Project.dir/GraphColorSolution.c.obj"
   "S:/Documents/SEM 3/DSA_Project/TimeTableScheduling.c" "S:/Documents/SEM 3/DSA_Project/cmake-build-debug/CMakeFiles/DSA_Project.dir/TimeTableScheduling.c.obj"

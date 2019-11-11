@@ -74,6 +74,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="S:/Documents/SEM 3/DSA_Project/FrequencyAllocation.c">
+			<Option target="DSA_Project"/>
+		</Unit>
+		<Unit filename="S:/Documents/SEM 3/DSA_Project/FrequencyAllocation.h">
+			<Option target="DSA_Project"/>
+		</Unit>
 		<Unit filename="S:/Documents/SEM 3/DSA_Project/GraphColorImplementation.c">
 			<Option target="DSA_Project"/>
 		</Unit>

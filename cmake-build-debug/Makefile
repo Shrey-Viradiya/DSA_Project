@@ -122,6 +122,33 @@ DSA_Project/fast:
 	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/build
 .PHONY : DSA_Project/fast
 
+FrequencyAllocation.obj: FrequencyAllocation.c.obj
+
+.PHONY : FrequencyAllocation.obj
+
+# target to build an object file
+FrequencyAllocation.c.obj:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/FrequencyAllocation.c.obj
+.PHONY : FrequencyAllocation.c.obj
+
+FrequencyAllocation.i: FrequencyAllocation.c.i
+
+.PHONY : FrequencyAllocation.i
+
+# target to preprocess a source file
+FrequencyAllocation.c.i:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/FrequencyAllocation.c.i
+.PHONY : FrequencyAllocation.c.i
+
+FrequencyAllocation.s: FrequencyAllocation.c.s
+
+.PHONY : FrequencyAllocation.s
+
+# target to generate assembly for a file
+FrequencyAllocation.c.s:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/FrequencyAllocation.c.s
+.PHONY : FrequencyAllocation.c.s
+
 GraphColorImplementation.obj: GraphColorImplementation.c.obj
 
 .PHONY : GraphColorImplementation.obj
@@ -266,6 +293,9 @@ help:
 	@echo ... DSA_Project
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... FrequencyAllocation.obj
+	@echo ... FrequencyAllocation.i
+	@echo ... FrequencyAllocation.s
 	@echo ... GraphColorImplementation.obj
 	@echo ... GraphColorImplementation.i
 	@echo ... GraphColorImplementation.s

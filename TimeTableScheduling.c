@@ -42,7 +42,7 @@ int TimeTableScheduling(){
 
     printf("\nInstructions: ");
     printf("\nTo show common student b/w course, \nenter two course numbers \"i j\" space separated");
-    printf("\nIf any of the i or j is greater of equal to no of vertices");
+    printf("\nIf any of the i or j is greater or equal to no of course");
     printf("\nthan input is rejected and asked for one more input");
     printf("\n\nChoose options\n1: Add Commons\n0: exit\n");
 
@@ -65,7 +65,7 @@ int TimeTableScheduling(){
             // updating graph matrix
             graph[course1][course2] = 1;
             graph[course2][course1] = 1;
-            printf("\nCommons added Added\n");
+            printf("\nCommons Added\n");
 
         }
     }while(choice2 != 0);
