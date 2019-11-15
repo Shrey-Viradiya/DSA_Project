@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "S:/Documents/SEM 3/DSA_Project/TimeTableScheduling.c" "S:/Documents/SEM 3/DSA_Project/cmake-build-debug/CMakeFiles/DSA_Project.dir/TimeTableScheduling.c.obj"
   "S:/Documents/SEM 3/DSA_Project/graph.c" "S:/Documents/SEM 3/DSA_Project/cmake-build-debug/CMakeFiles/DSA_Project.dir/graph.c.obj"
   "S:/Documents/SEM 3/DSA_Project/main.c" "S:/Documents/SEM 3/DSA_Project/cmake-build-debug/CMakeFiles/DSA_Project.dir/main.c.obj"
+  "S:/Documents/SEM 3/DSA_Project/sudokuProblem.c" "S:/Documents/SEM 3/DSA_Project/cmake-build-debug/CMakeFiles/DSA_Project.dir/sudokuProblem.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

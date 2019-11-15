@@ -107,6 +107,12 @@
 		<Unit filename="S:/Documents/SEM 3/DSA_Project/main.c">
 			<Option target="DSA_Project"/>
 		</Unit>
+		<Unit filename="S:/Documents/SEM 3/DSA_Project/sudokuProblem.c">
+			<Option target="DSA_Project"/>
+		</Unit>
+		<Unit filename="S:/Documents/SEM 3/DSA_Project/sudokuProblem.h">
+			<Option target="DSA_Project"/>
+		</Unit>
 		<Unit filename="S:/Documents/SEM 3/DSA_Project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

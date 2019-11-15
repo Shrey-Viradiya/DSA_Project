@@ -2,6 +2,7 @@
 #include "GraphColorImplementation.h"
 #include "TimeTableScheduling.h"
 #include "FrequencyAllocation.h"
+#include "sudokuProblem.h"
 
 int main(){
     printf("\nDSA_Project");
@@ -19,6 +20,7 @@ int main(){
     printf("\n1: Simple Graph Coloring Implementation");
     printf("\n2: Exam Time-Table Scheduling");
     printf("\n3: Mobile Radio Frequency Allocation");
+    printf("\n4: Sudoku");
     printf("\n______________________");
     printf("\nEnter Your Choice:\n");
 
@@ -34,6 +36,9 @@ int main(){
             break;
         case 3:
             FrequencyAllocation();
+            break;
+        case 4:
+            sudokuProblem();
             break;
         default:
             printf("Not Sure What to do! Please try again...");

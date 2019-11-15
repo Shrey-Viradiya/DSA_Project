@@ -284,6 +284,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/main.c.s
 .PHONY : main.c.s
 
+sudokuProblem.obj: sudokuProblem.c.obj
+
+.PHONY : sudokuProblem.obj
+
+# target to build an object file
+sudokuProblem.c.obj:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/sudokuProblem.c.obj
+.PHONY : sudokuProblem.c.obj
+
+sudokuProblem.i: sudokuProblem.c.i
+
+.PHONY : sudokuProblem.i
+
+# target to preprocess a source file
+sudokuProblem.c.i:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/sudokuProblem.c.i
+.PHONY : sudokuProblem.c.i
+
+sudokuProblem.s: sudokuProblem.c.s
+
+.PHONY : sudokuProblem.s
+
+# target to generate assembly for a file
+sudokuProblem.c.s:
+	$(MAKE) -f CMakeFiles\DSA_Project.dir\build.make CMakeFiles/DSA_Project.dir/sudokuProblem.c.s
+.PHONY : sudokuProblem.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -311,6 +338,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sudokuProblem.obj
+	@echo ... sudokuProblem.i
+	@echo ... sudokuProblem.s
 .PHONY : help
 
 
