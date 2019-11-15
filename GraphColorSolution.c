@@ -6,6 +6,36 @@
 #include <stdlib.h>
 #include<stdbool.h>
 
+int solutionSudoku = 0;
+
+void printSudoku(int *color) {
+    printf("\nSolution: %d\n", ++solutionSudoku);
+
+    for (int i = 0; i < 2; ++i) {
+        for (int j = 0; j < 2; ++j) {
+            printf("%d ", color[i + (4 * j)]);
+        }
+        printf("| ");
+        for (int j = 2; j < 4; ++j) {
+            printf("%d ", color[i + (4 * j)]);
+        }
+        printf("\n");
+    }
+    printf("----------\n");
+    for (int i = 2; i < 4; ++i) {
+        for (int j = 0; j < 2; ++j) {
+            printf("%d ", color[i + (4 * j)]);
+        }
+        printf(" | ");
+        for (int j = 2; j < 4; ++j) {
+            printf("%d ", color[i + (4 * j)]);
+        }
+        printf("\n");
+    }
+    printf("\n");
+    printf("\n");
+}
+
 void printSolution(int* color, int vertices)
 {
     int i;
@@ -55,18 +85,18 @@ bool GraphColoringREC(bool** graph, int m, int* color, int v, int vertices)
 
 bool GraphColoringSudoku(bool graph[16][16], int m, int* color, int v, int vertices)
 {
-    if (v == vertices)
+    if (v == vertices) {
+        printSudoku(color);
         return true;
+    }
+
 
     for (int c = 1; c <= m; c++)
     {
         if (isSafeSudoku(v, graph, color, c, vertices))
         {
             color[v] = c;
-
-            if (GraphColoringSudoku (graph, m, color, v+1, vertices) == true)
-                return true;
-
+            GraphColoringSudoku(graph, m, color, v + 1, vertices);
             color[v] = 0;
         }
     }
@@ -77,15 +107,11 @@ bool GraphColoringSudoku(bool graph[16][16], int m, int* color, int v, int verti
 int* SolveGraph(bool** graph, int m, int vertices)
 {
     int* color = calloc(vertices, sizeof(int));
-//    for (int i = 0; i < vertices; i++)
-//        color[i] = 0;
 
     if (GraphColoringREC(graph, m, color, 0, vertices) == false)
     {
         return NULL;
     }
-//    printf("Minimum Number of Different colors \nrequired to Color the graph: %d",m);
-//    printSolution(color, vertices);
 
     return color;
 }
@@ -99,8 +125,6 @@ int* SolveGraphSudoku(bool graph[16][16], int m, int vertices){
     {
         return NULL;
     }
-//    printf("Minimum Number of Different colors \nrequired to Color the graph: %d",m);
-//    printSolution(color, vertices);
 
     return color;
 }

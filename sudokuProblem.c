@@ -3,25 +3,11 @@
 //
 
 #include <stdio.h>
-#include <stdlib.h>
 #include <stdbool.h>
 #include "GraphColorSolution.h"
 
 #define size 2
 #define length size*size
-
-void printSudoku(int* color, int vertices)
-{
-    printf("\nSolution:\n");
-
-    for (int i = 0; i < 4; ++i) {
-        for (int j = 0; j < 4; ++j) {
-            printf("%d\t",color[i+(4*j)]);
-        }
-        printf("\n");
-    }
-    printf("\n");
-}
 
 int sudokuProblem(){
     printf("\nThis is Sudoku Problem: %dx%d ",length,length);
@@ -48,12 +34,12 @@ int sudokuProblem(){
     int m = length;
     int *solution = NULL;
 
-    solution = SolveGraphSudoku(graph, m, length * length);;
-    if (solution != NULL) {
+    solution = SolveGraphSudoku(graph, m, length * length);
+    if (solution == NULL) {
         printf("Error");
+        return 0;
     }
 
-    printSudoku(solution,length*length);
-
+//    printSudoku(solution,length*length);
     return 0;
 }

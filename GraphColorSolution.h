@@ -8,6 +8,7 @@
 #include<stdio.h>
 #include<stdbool.h>
 
+void printSudoku(int *color, int vertices);
 void printSolution(int color[], int vertices);
 bool isSafe (int v, bool** graph, const int color[], int c, int vertices);
 bool isSafeSudoku (int v, bool graph[16][16], const int color[], int c, int vertices);
