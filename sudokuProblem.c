@@ -36,7 +36,7 @@ int sudokuProblem(){
 
     solution = SolveGraphSudoku(graph, m, length * length);
     if (solution == NULL) {
-        printf("Error");
+//        printf("Error");
         return 0;
     }
 

@@ -6,11 +6,115 @@
 
 #IncludeRegexTransform: 
 
+S:/Documents/SEM 3/DSA_Project/FrequencyAllocation.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+GraphColorSolution.h
+S:/Documents/SEM 3/DSA_Project/GraphColorSolution.h
+
+S:/Documents/SEM 3/DSA_Project/FrequencyAllocation.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+GraphColorSolution.h
+S:/Documents/SEM 3/DSA_Project/GraphColorSolution.h
+
+S:/Documents/SEM 3/DSA_Project/GraphColorImplementation.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+graph.h
+S:/Documents/SEM 3/DSA_Project/graph.h
+GraphColorSolution.h
+S:/Documents/SEM 3/DSA_Project/GraphColorSolution.h
+
+S:/Documents/SEM 3/DSA_Project/GraphColorImplementation.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+graph.h
+S:/Documents/SEM 3/DSA_Project/graph.h
+GraphColorSolution.h
+S:/Documents/SEM 3/DSA_Project/GraphColorSolution.h
+
 S:/Documents/SEM 3/DSA_Project/GraphColorSolution.c
 stdio.h
 -
 stdlib.h
 -
 stdbool.h
+-
+
+S:/Documents/SEM 3/DSA_Project/GraphColorSolution.h
+stdio.h
+-
+stdbool.h
+-
+
+S:/Documents/SEM 3/DSA_Project/TimeTableScheduling.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+GraphColorSolution.h
+S:/Documents/SEM 3/DSA_Project/GraphColorSolution.h
+
+S:/Documents/SEM 3/DSA_Project/TimeTableScheduling.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+GraphColorSolution.h
+S:/Documents/SEM 3/DSA_Project/GraphColorSolution.h
+
+S:/Documents/SEM 3/DSA_Project/graph.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
+S:/Documents/SEM 3/DSA_Project/main.c
+stdio.h
+-
+GraphColorImplementation.h
+S:/Documents/SEM 3/DSA_Project/GraphColorImplementation.h
+TimeTableScheduling.h
+S:/Documents/SEM 3/DSA_Project/TimeTableScheduling.h
+FrequencyAllocation.h
+S:/Documents/SEM 3/DSA_Project/FrequencyAllocation.h
+sudokuProblem.h
+S:/Documents/SEM 3/DSA_Project/sudokuProblem.h
+
+S:/Documents/SEM 3/DSA_Project/sudokuProblem.c
+stdio.h
+-
+stdbool.h
+-
+GraphColorSolution.h
+S:/Documents/SEM 3/DSA_Project/GraphColorSolution.h
+
+S:/Documents/SEM 3/DSA_Project/sudokuProblem.h
+stdio.h
+-
+stdlib.h
 -
 
